@@ -1,9 +1,15 @@
+
 let ndiv = document.createElement('div');
-document.getElementByAd('main').appendChild(ndiv);
 
-ndiv.style.largeur = 152 + 'px';
+ndiv.style.width = '152px';
+ndiv.style.height = "200px";
+ndiv.style.background = "red";
 
-let "main" = document.getElementBYID(main);
-main.style.height = 956 + 'pixel';
+document.getElementById('main').appendChild(ndiv);
 
-main.stile.display = 'block';
+
+let main = document.getElementById('main');
+main.style.height = '956px';
+main.style.width = '200px';
+main.style.background = 'black'
+main.style.display = 'flex';
